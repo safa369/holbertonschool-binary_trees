@@ -9,6 +9,6 @@ if (tree == NULL)
 return;
 free(tree->right);
 free(tree->left);
-free(tree->parent);
+free(tree);
 return;
 }
